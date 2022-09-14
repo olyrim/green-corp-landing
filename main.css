@@ -78,6 +78,16 @@ button {
 .about__info {
    max-width: 550px;
 }
+.about {
+   position: relative;
+}
+
+.orb-canvas {
+   position: absolute;
+   top: 0;
+   height: 100%;
+   right: 0;
+}
 @keyframes rotation {
    0% {
      transform: rotate(0);
@@ -109,10 +119,11 @@ button {
    font-weight: 700;
    background-color: #eaeff9;
    border-radius: 50%;
+
+   margin-bottom: 15px;
    display: flex;
    align-items: center;
    justify-content: center;
-   margin-bottom: 15px;
 }
 .card__title {
    margin-bottom: 10px;
@@ -132,7 +143,7 @@ button {
    opacity: .8;
 }
 .features__border {
-   margin: 50px;
+   margin: 50px auto;
    border: 1px solid #E6EAF4;
 }
 .features__feedback {
